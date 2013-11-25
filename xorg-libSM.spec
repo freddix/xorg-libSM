@@ -1,7 +1,7 @@
 Summary:	Session Management library
 Name:		xorg-libSM
 Version:	1.2.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libSM-%{version}.tar.bz2
@@ -68,7 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libSM.so
-%{_libdir}/libSM.la
 %dir %{_includedir}/X11/SM
 %{_includedir}/X11/SM/*.h
 %{_pkgconfigdir}/sm.pc
